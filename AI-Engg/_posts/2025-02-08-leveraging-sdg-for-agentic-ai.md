@@ -9,6 +9,8 @@ excerpt: "This is a short summary of the blog post."
 permalink: /leveraging-sdg-for-agentic-ai/
 ---
 
+# 1. Introduction to Sythentic Data Generation (SDG) #
+
 Needed when < actual data may be sensitive, confidential, or limited in availability>
 While there are several techniques of SDG, this post is focused on using GenAI for SDG.
 
@@ -45,7 +47,7 @@ XXXXX
 
 XXXXX
 
-|     S.No.    |     Use Case                                        |     Description                                                                                     |     Example                                                                             |
+|     S. No.    |     Use Case                                        |     Description                                                                                     |     Example                                                                             |
 |---------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 |     1         |     Simulating User Interactions for Fine-Tuning    |     Improve training by introducing diversity in   synthetic datasets                               |     Simulating astrology client-agent   conversations with varying emotional tones      |
 |     2         |     Enhancing Multimodal Agents                     |     Synthetic multimodal (text, image, audio)   data improves agents that process diverse inputs    |     Generating synthetic voice commands for a   voice-enabled AI astrologer             |
