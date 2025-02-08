@@ -29,13 +29,15 @@ github_username:  deeptidabral
 
 # Build settings
 # theme: minima
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: pages-themes/minimal@v0.2.0
+
+# remote_theme: "mmistakes/minimal-mistakes"
 
 # Change homepage layout to show posts
 layout: home
 
 # Minimal Mistakes settings
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Enable pagination
 paginate: 5
