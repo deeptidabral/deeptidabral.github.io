@@ -37,7 +37,6 @@ layout: home
 # Minimal Mistakes settings
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-
 # Enable pagination
 paginate: 5
 paginate_path: "/page:num/"
