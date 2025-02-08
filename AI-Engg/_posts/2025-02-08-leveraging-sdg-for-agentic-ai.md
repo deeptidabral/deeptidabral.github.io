@@ -45,7 +45,7 @@ XXXXX
 
 XXXXX
 
-|     S. No.    |     Use Case                                        |     Description                                                                                     |     Example                                                                             |
+|     S.No.    |     Use Case                                        |     Description                                                                                     |     Example                                                                             |
 |---------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 |     1         |     Simulating User Interactions for Fine-Tuning    |     Improve training by introducing diversity in   synthetic datasets                               |     Simulating astrology client-agent   conversations with varying emotional tones      |
 |     2         |     Enhancing Multimodal Agents                     |     Synthetic multimodal (text, image, audio)   data improves agents that process diverse inputs    |     Generating synthetic voice commands for a   voice-enabled AI astrologer             |
