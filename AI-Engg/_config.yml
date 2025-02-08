@@ -31,7 +31,6 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes"
 
 # Minimal Mistakes settings
@@ -42,6 +41,7 @@ show_excerpts: true # Show excerpts on the homepage
 
 # Plugins
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
