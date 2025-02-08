@@ -35,7 +35,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 layout: home
 
 # Minimal Mistakes settings
-minimal_mistakes_skin: "contrast" # Change skin for different styles
+minimal_mistakes_skin: "air" # Change skin for different styles
 
 # Enable pagination
 paginate: 5
