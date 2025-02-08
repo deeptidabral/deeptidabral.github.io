@@ -45,15 +45,13 @@ XXXXX
 
 XXXXX
 
-
-| S. No. |                   Use Case                   |                                         Description                                        |                                     Example                                    |   |
-|:------:|:--------------------------------------------:|:------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|---|
-|    1   | Simulating User Interactions for Fine-Tuning | Improve training by introducing diversity in synthetic datasets                            | Simulating astrology client-agent conversations with varying emotional tones   |   |
-|    2   | Enhancing Multimodal Agents                  | Synthetic multimodal (text, image, audio) data improves agents that process diverse inputs | Generating synthetic voice commands for a voice-enabled AI astrologer          |   |
-|    3   | Training Agents for Task Generalization      | Synthetic workflows can help fine-tune task execution agents.                              | Creating synthetic task descriptions to train an autonomous research assistant |   |
-|    4   | Error Handling and Recovery Strategies       | Synthetic failure scenarios help agents learn from mistakes.                               | Simulating API failures for an autonomous trading bot                          |   |
-|    5   | Reinforcement Learning for AI Agents         | Synthetic rewards, environments, or policies improve reinforcement learning models         | Training an AI astrologer to optimize personalized recommendations             |   |
-
+|     S. No.    |     Use Case                                        |     Description                                                                                     |     Example                                                                             |
+|---------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+|     1         |     Simulating User Interactions for Fine-Tuning    |     Improve training by introducing diversity in   synthetic datasets                               |     Simulating astrology client-agent   conversations with varying emotional tones      |
+|     2         |     Enhancing Multimodal Agents                     |     Synthetic multimodal (text, image, audio)   data improves agents that process diverse inputs    |     Generating synthetic voice commands for a   voice-enabled AI astrologer             |
+|     3         |     Training Agents for Task Generalization         |     Synthetic workflows can help fine-tune task   execution agents.                                 |     Creating synthetic task descriptions to   train an autonomous research assistant    |
+|     4         |     Error Handling and Recovery Strategies          |     Synthetic failure scenarios help agents   learn from mistakes.                                  |     Simulating API failures for an autonomous   trading bot                             |
+|     5         |     Reinforcement Learning for AI Agents            |     Synthetic rewards, environments, or policies   improve reinforcement learning models            |     Training an AI astrologer to optimize   personalized recommendations                |
 
 XXXXX  
 
