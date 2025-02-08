@@ -8,7 +8,6 @@ author: "Deepti Dabral"
 excerpt: "This is a short summary of the blog post."
 ---
 
-
 # Leveraging Synthetic Data Generation (SDG) for improving Agentic AI #
 
 # 1. What is Synthetic Data Generation (SDG)? #
