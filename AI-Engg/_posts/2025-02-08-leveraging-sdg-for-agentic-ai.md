@@ -6,11 +6,8 @@ categories: [Agentic AI eval]
 tags: [GitHub Pages, Jekyll, Blogging]
 author: "Deepti Dabral"
 excerpt: "This is a short summary of the blog post."
+permalink: /leveraging-sdg-for-agentic-ai/
 ---
-
-# Leveraging Synthetic Data Generation (SDG) for improving Agentic AI #
-
-# 1. What is Synthetic Data Generation (SDG)? #
 
 Needed when < actual data may be sensitive, confidential, or limited in availability>
 While there are several techniques of SDG, this post is focused on using GenAI for SDG.

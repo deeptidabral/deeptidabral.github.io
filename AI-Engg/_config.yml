@@ -36,9 +36,11 @@ layout: home
 
 # Minimal Mistakes settings
 minimal_mistakes_skin: "default" # Change skin for different styles
+
 # Enable pagination
 paginate: 5
 paginate_path: "/page:num/"
+
 show_excerpts: true # Show excerpts on the homepage
 
 # Plugins
@@ -48,6 +50,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+#Include posts with future dates
 future: true
 
 # plugins:
