@@ -6,6 +6,7 @@ categories: [Agentic AI eval]
 tags: [GitHub Pages, Jekyll, Blogging]
 author: "Deepti Dabral"
 excerpt: "This is a short summary of the blog post."
+permalink: /leveraging-sdg-for-agentic-ai/
 ---
 
 Needed when < actual data may be sensitive, confidential, or limited in availability>
