@@ -50,6 +50,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+custom_css:
+  - assets/css/custom.css
+
 #Include posts with future dates
 future: true
 
