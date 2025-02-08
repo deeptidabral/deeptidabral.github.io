@@ -48,6 +48,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+future: true
+
 # plugins:
 #   - jekyll-feed
 
