@@ -24,7 +24,7 @@ layout: default
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
     <div class="page__inner-wrap">
       {% if page.toc %}
-        <div style="position: fixed; top:10%; right:0" class="sidebar">
+        <div style="position: fixed; top:0; right:0" class="sidebar">
           <h2>Table of Contents</h2>
           {{ content | toc_only }}
         </div>
@@ -68,21 +68,21 @@ layout: default
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
-      <footer class="page__meta">
+      <!-- <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-      </footer>
+      </footer> -->
 
-      {% if page.share %}{% include social-share.html %}{% endif %}
+      <!-- {% if page.share %}{% include social-share.html %}{% endif %} -->
 
-      {% include post_pagination.html %}
+      <!-- {% include post_pagination.html %} -->
     </div>
 
-    {% if site.comments.provider and page.comments %}
+    <!-- {% if site.comments.provider and page.comments %}
       {% include comments.html %}
-    {% endif %}
+    {% endif %} -->
   </article>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}

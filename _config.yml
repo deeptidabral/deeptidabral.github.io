@@ -13,7 +13,7 @@ title                    : "Deepti Dabral"
 title_separator          : "-"
 name                     : &name "Deepti Dabral"
 description              : &description "personal description"
-url                      : https://deeptidabral.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://deeptidabral.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Deepti Dabral"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  # bio              : "Short biography for the left-hand sidebar"
   location         : "Earth"
-  employer         : "Red Brick University"
+  # employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
 

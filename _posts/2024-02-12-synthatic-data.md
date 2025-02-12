@@ -5,7 +5,7 @@ permalink: /posts/2024/02/synthatic-data/
 toc: false
 ---
 
-# Overview of Synthetic Data
+# 1 Overview of Synthetic Data
 
 ## 1.1 What is synthetic data?
 
@@ -130,11 +130,9 @@ Synthetic data can enable agent evaluation in a robust and comprehensive way.
 ### **Model Governance**
 
 
----
+# 4. Evaluation and Validation of Synthetic Data
 
-## 4. Evaluation and Validation of Synthetic Data
-
-### 4.1 What should be the leading tenets of evaluating synthetic data?
+## 4.1 What should be the leading tenets of evaluating synthetic data?
 - **Perceptual Assessment** –  This means evaluating how well synthetic text, images, audio, or video align with human perception and real-world semantics. Comparing statistical properties of real and synthetic data and determining if they follow same distribution patterns would help understand how far or close is synthetic data to real data. Some examples of such comparisons could be:
   - Similarity between word frequency distributions of real-world chats of customer and customer service chatbots and synthetic samples created using them
   - Similarity between color, and spatial distributions of real-world geo-spatial data and synthetic projections of the same
@@ -143,7 +141,7 @@ Synthetic data can enable agent evaluation in a robust and comprehensive way.
 - **Task-Specific Performance Evaluation & Model Generalization** – This includes assessing the performance and effectiveness of synthetic data in improving AI model performance. Comparing performance of models trained on synthetic data versus models trained on real data can help understand value of synthetic data. Model performance metrics would vary based on the nature of use case.
 - **Bias, Authenticity & Ethical Risks** –  This includes detecting potential sources of bias such as representation bias and contextual bias, finding hallucinations in synthetic text, and determining misinformation in synthetic datasets. 
 
-### 4.2 What are some leading techniques of validating synthetic data?
+## 4.2 What are some leading techniques of validating synthetic data?
 - Techniques such as KL Divergence, cosine similarity of text embeddings can help determine similarity between real and synthetic distributions. Metrics such as BLEU score, and ROUGE score help benchmark coherence and logical consistency of synthetic text. Additionally, adversarial robustness testing can help detect weaknesses in synthetic data.
 
 - Validation methods should check for meaningful and logically consistent semantic properties for its intended applications. Contextual coherence and logical flow analysis using coherence scoring techniques, semantic similarity and embedding validation using vector space alignment and similarity of embeddings, and fact checking using retrieval-based fact verification systems and fact-checking APIs are some of the leading methods.
@@ -156,7 +154,7 @@ Synthetic data can enable agent evaluation in a robust and comprehensive way.
 
 As an example from an implementation perspective, Synthetic Data Metrics (SDMetrics) is a Python library for evaluating tabular synthetic data. This can be used for generating, evaluating, and improving synthetic data. SDMetrics is a suite of validation tools to assess the quality of synthetic data based on statistical similarity, fidelity, and utility compared to real-world datasets. This package includes modules to conduct distributional similarity tests, and privacy risk evaluations. It also supports custom metric creation, allowing domain-specific validations such as bias detection and fairness analysis. Evaluating unstructured synthetic data requires specialized perceptual and semantic validation techniques like CLIP for images or BERT embeddings for text.
 
-## 5. SDG and Using Synthetic Data with an AI Agent - Notebook
+# 5. SDG and Using Synthetic Data with an AI Agent - Notebook
 
 This notebook uses the `ragas` library and accomplishes the following key tasks:
 - Use RAGAS to Generate Synthetic Data
