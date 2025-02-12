@@ -2,7 +2,7 @@
 title: 'Overview of synthatic data'
 date: 2024-02-12
 permalink: /posts/2024/02/synthatic-data/
-toc: true
+toc: false
 ---
 
 # 1 Overview of Synthetic Data
