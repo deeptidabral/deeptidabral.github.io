@@ -373,13 +373,13 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: var(--global-text-color-light);
-  text-transform: uppercase;
+  color: black;
   letter-spacing: 1px;
   background-color: #fff;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
+  width: 300px;
 
   .nav__title {
     color: #fff;
@@ -400,7 +400,7 @@
   a {
     display: block;
     padding: 0.5rem 1rem;
-    color: var(--global-text-color-light);
+    color: black;
     font-size: $type-size-7;
     font-weight: bold;
     line-height: 1.5;
@@ -420,7 +420,7 @@
   }
 
   li ul > li a {
-    padding-left: 2rem;
+    padding-left: 0;
     font-weight: normal;
   }
 
@@ -433,3 +433,17 @@
     }
   }
 }
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none; /* Hide default disclosure triangle */
+}
+
+// summary::after {
+//   content: " ▼"; /* Default arrow */
+// }
+
+// details[open] summary::after {
+//   content: " ▲"; /* Arrow when open */
+// }
