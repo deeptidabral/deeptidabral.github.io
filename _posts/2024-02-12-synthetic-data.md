@@ -9,7 +9,7 @@ toc: true
 
 I will be exploring the transformative impact of synthetic data generation (SDG) in AI development, particularly focusing on its critical importance for agentic AI systems. It comprehensively explores how synthetic data can enhance AI agent training through diverse simulated interactions, multimodal understanding, and robust error handling capabilities. The write-up culminates with practical implementation guidance, including a detailed example using the RAGAS library to generate and evaluate synthetic data for Retrieval Augmented Generation (RAG) systems, demonstrating how we can leverage synthetic data to build more reliable and capable AI agents.
 
-## 1. Overview of Synthetic Data
+# 1. Overview of Synthetic Data
 ## 1.1 What is synthetic data? 
 Synthetic data is artificial but realistic data generated to increase the availability of data required for critical stages of the AI/ML model lifecycle where the use case might not have sufficient data samples. It is critical to note that even though synthetic data is completely fake, it is representative of real-world data, thus, making it usable for AI model training, testing, supervised fine-tuning, and governance purposes. Synthetic data generation (SDG) creates new data points / samples mimicking the real-world data variables and data samples.
 ## 1.2 When is it needed?
