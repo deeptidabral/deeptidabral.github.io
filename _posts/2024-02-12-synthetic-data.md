@@ -5,8 +5,6 @@ permalink: /posts/2024/02/leveraging-synthetic-data-in-agentic-ai/
 toc: true
 ---
 
-# Leveraging Synthetic Data in Agentic AI
-
 I will be exploring the transformative impact of synthetic data generation (SDG) in AI development, particularly focusing on its critical importance for agentic AI systems. It comprehensively explores how synthetic data can enhance AI agent training through diverse simulated interactions, multimodal understanding, and robust error handling capabilities. The write-up culminates with practical implementation guidance, including a detailed example using the RAGAS library to generate and evaluate synthetic data for Retrieval Augmented Generation (RAG) systems, demonstrating how we can leverage synthetic data to build more reliable and capable AI agents.
 
 # 1. Overview of Synthetic Data
