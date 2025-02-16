@@ -1,7 +1,7 @@
 ---
 title: 'Leveraging Synthetic Data in Agentic AI'
-date: 2024-02-12
-permalink: /posts/2024/02/leveraging-synthetic-data-in-agentic-ai/
+date: 2025-02-12
+permalink: /posts/2025/02/leveraging-synthetic-data-in-agentic-ai/
 toc: true
 ---
 
